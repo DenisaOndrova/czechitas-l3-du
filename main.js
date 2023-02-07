@@ -1,4 +1,4 @@
-// tady je místo pro náš program
+// Ukol 1
 let jmenoPrijmeniUzivatele = document.querySelector('.jmenoPrijmeni')
 let vyplneneJmeno = prompt('Vyplňte Vaše jméno a příjmení:')
 
@@ -10,9 +10,10 @@ let soucasnyRok = 2023
 
 narozeni.innerHTML = soucasnyRok - vyplnenyRok
 
-function obarveni(){
-    let barva = prompt('Jak se Vaše oblíbená barva řekne anglicky?')
-   
-}
+//Ukol 2
+
+let barva = prompt('Jak se Vaše oblíbená barva řekne anglicky?')
+narozeni.style.color= barva;
+jmenoPrijmeniUzivatele.style.color = barva;
 
 
